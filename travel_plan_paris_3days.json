@@ -1,0 +1,43 @@
+{
+  "plan": "[PLAN] TRAVEL PLAN: Plan a 3-day trip to paris.\n\n=== Day-wise Itinerary ===\n| Day | Date | Activities | Daily Cost |\n|-----|------|-----------|------------|\n| 1 | 2025-11-23 | Breakfast at hotel, Guided tour of paris landmarks, Lunch at local restaurant, Museum or cultural site, Dinner and evening entertainment | $235.00 |\n| 2 | 2025-11-24 | Breakfast at hotel, Guided tour of paris landmarks, Lunch at local restaurant, Museum or cultural site, Dinner and evening entertainment | $235.00 |\n| 3 | 2025-11-25 | Breakfast at hotel, Guided tour of paris landmarks, Lunch at local restaurant, Museum or cultural site, Dinner and evening entertainment | $235.00 |\n\n\n=== Cost Breakdown ===\n  * Flights: $469.51\n  * Accommodation: $429.18\n  * Meals: $375.00\n  * Activities: $705.00\n  * Miscellaneous: $150.00\n\n[OK] Initial Total Cost: $2128.69\n\n======================================================================\n[WARNING] BUDGET CONSTRAINT VIOLATION\n   Original Cost: $2128.69 | Budget Limit: $1000.00\n   Overage: $1128.69\n\n[TARGET] ALTERNATIVE SCENARIOS:\n======================================================================\n\nScenario 1: Shorter Duration\n  Description: Reduce trip from 3 to 3 days\n  [PRICE] Estimated Cost: $2128.69\n  [SAVE] Savings vs Original: $0.00\n  Key Adjustments:\n    - Eliminate slower travel days\n    - Focus on top-priority activities\n    - Stay in premium accommodations for fewer nights\n\nScenario 2: Budget-Friendly Experience\n  Description: Maintain full duration but reduce premium activities\n  [PRICE] Estimated Cost: $1596.51\n  [SAVE] Savings vs Original: $532.17\n  Key Adjustments:\n    - Choose economy accommodations instead of 4-star hotels\n    - Select free or low-cost activities (parks, markets, beaches)\n    - Eat at local restaurants instead of tourist zones\n    - Skip premium guided tours; use self-guided options\n\nScenario 3: Ultra-Budget Adventure\n  Description: Minimal costs with local travel focus\n  [PRICE] Estimated Cost: $950.00\n  [SAVE] Savings vs Original: $1178.69\n  Key Adjustments:\n    - Book flights 2+ months in advance or use budget airlines\n    - Stay in hostels or budget hotels\n    - Cook some meals; eat street food and local eateries\n    - Participate only in free activities\n    - Use public transportation exclusively\n\n[OK] RECOMMENDED: Scenario 3: Ultra-Budget Adventure\n   Cost: $950.00 (within budget: $1000.00)\n======================================================================\n",
+  "total_cost": 2128.685600642455,
+  "scenarios": [
+    {
+      "scenario": "Scenario 1: Shorter Duration",
+      "description": "Reduce trip from 3 to 3 days",
+      "cost": 2128.685600642455,
+      "savings": 0.0,
+      "adjustments": [
+        "- Eliminate slower travel days",
+        "- Focus on top-priority activities",
+        "- Stay in premium accommodations for fewer nights"
+      ]
+    },
+    {
+      "scenario": "Scenario 2: Budget-Friendly Experience",
+      "description": "Maintain full duration but reduce premium activities",
+      "cost": 1596.5142004818413,
+      "savings": 532.1714001606138,
+      "adjustments": [
+        "- Choose economy accommodations instead of 4-star hotels",
+        "- Select free or low-cost activities (parks, markets, beaches)",
+        "- Eat at local restaurants instead of tourist zones",
+        "- Skip premium guided tours; use self-guided options"
+      ]
+    },
+    {
+      "scenario": "Scenario 3: Ultra-Budget Adventure",
+      "description": "Minimal costs with local travel focus",
+      "cost": 950.0,
+      "savings": 1178.685600642455,
+      "adjustments": [
+        "- Book flights 2+ months in advance or use budget airlines",
+        "- Stay in hostels or budget hotels",
+        "- Cook some meals; eat street food and local eateries",
+        "- Participate only in free activities",
+        "- Use public transportation exclusively"
+      ]
+    }
+  ],
+  "generated_at": "2025-11-23T07:24:42.388164"
+}
